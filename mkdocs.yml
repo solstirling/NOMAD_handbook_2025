@@ -1,0 +1,46 @@
+site_name: NOMAD Technical Handbook
+site_url: https://nomadtech.com
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+nav:
+  - Home: index.md
+  - CAD:
+    - Plate Design:
+      - Pocketing: pocketing.md
+      - DFM: DFM.md
+      - DFA: DFA.md
+      - Thicknesses: thicknesses.md
+    - Wheels and Rollers:
+      - Wheels: wheels.md
+      - Rollers: rollers.md
+    - 3D Prints: 3DP.md
+  - Mechanical:
+    - Manufacturing: mfg.md
+    - Assembly: assembly.md
+  - Software: sw.md
+theme:
+  name: material
+  font:
+    text: Lexend
+  logo: Remove Background S.png
+  favicon: assets/S.ico
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: cyan
+      accent: pink
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: blue grey
+      accent: light blue
+  
