@@ -1,4 +1,4 @@
-# FRC CAD Pocketing Guide
+# NOMAD's Pocketing Guide
 
 Pocketing is the process of removing unnecessary material from metal plates or tubes to reduce weight while maintaining structural integrity. It’s a powerful tool in mechanical design—especially in FRC—where weight constraints, performance, and accessibility matter.
 
@@ -13,10 +13,10 @@ Pocketing decisions depend on a combination of the following factors:
 - **Total plate area** – Larger plates offer more opportunity for meaningful weight savings.
 - **Thickness** – Thicker materials (like 1/4" or 1/8" aluminum) are more worth pocketing than thinner ones.
 - **Rib structure** – Can you leave behind enough ribs to keep the part rigid?
-- **Estimated weight savings** – If you can save 50–150g per part, it adds up fast.
+- **Estimated weight savings** – If you can save .25lbs per part, it adds up fast.
 - **Application** – Is the part load-bearing or aesthetic? Critical structure or non-essential?
 
-In practice, **our team pocketed almost every plate on the robot**, except for polycarbonate intake plates. The decision often came down to how much weight we expected to save, and whether it was worth the minimal additional CAM/CNC time—especially with faster CNC workflows.
+In 2025, **our team pocketed almost every plate on the robot**, except for polycarbonate intake plates. The decision often came down to how much weight we expected to save, and whether it was worth the minimal additional CAM/CNC time—especially with faster CNC workflows.
 
 ---
 
@@ -39,54 +39,29 @@ In practice, **our team pocketed almost every plate on the robot**, except for p
 
 ---
 
-## Practical Tips
+## Tips before starting
 
-- **Finish the design before pocketing.** In Onshape, updating features after pocketing can create messy rebuilds. Finalize geometry and mating first.
-- **Think ribs first.** Leave ribs around bolt holes and edges to maintain strength.
-- **Use depth control.** Partial-depth pockets are easier to machine and preserve more material under load paths.
-- **Test pocketing on clones.** If unsure, make a copy of your part and test different pocketing options visually and with mass properties.
+- **Finish the design before pocketing.** In Onshape, updating features after pocketing can create messy rebuilds. Finalize geometry and check for interferences first. If you are in a rush to get a part machined, be sure to double check the most important aspects of the plate (belt C2Cs, game piece compression, hole sizes, etc.)
+- **Holes and edges first.** Always start with a consistent rib thickness around bolt holes and plate perimeter to maintain strength and aesthetics.
+- **Use depth control.** Partial-depth pockets are faster to machine and offer more strength and material under load paths.
+- **Test different methods.** If unsure, try different rib patterns and evaluate them visually and with mass properties.
 
 ---
 
-## Summary
+## The Process
+
+To be consistent as a team, we will always use the [lighten FS](https://cad.onshape.com/documents/573f7d70e4b0fddafb52148c/v/159edf03bd5c40a22bbff33c/e/5eccf6d369b0312a728d77d3) because it offers more control with holes and thicknesses.
+
+> "biggest thing that makes pocketing look good is not the pocketing its the plate outer contour and how many holes you add..." 
+>
+> *Jonah*
+
+Alot of people struggle with pocketing, either with it's aesthetics, or it's structure. In order to uphold both of these properties, the plate itself needs to be designed well. As said in the quote above, good pocketing stems from the outer countour (the edge of the plate), and the amount of holes. Here are two plates with the same function but different perimeters and hole counts:
+
+
+
+
+---
+## Conclusion 
 
 Pocketing is one of the most efficient ways to reduce robot weight without compromising performance—if done thoughtfully. Use this guide to evaluate your designs and make pocketing decisions based on geometry, function, and estimated weight savings.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# __Pocketing__
-
-Pocketing is removing any uneccesary material from a plate, tube, or panel, and leaves the __ribs__ , which keep the essential structure strong and rigid. Whether you are trying to make the year's weight limit, or lighten up a mechanism, pocketing is a great solution. 
-
-Before actually going over the pocketing process itself, there are a few important things to know:
-
-## Before you pocket:
-
-1. __Finish the design.__ Especially in Onshape, where you have multiple people working with you, pocketing too early can turn into messy workflow. When designing plates, so many aspects change in order to avoid interferences and clipping, the pocketing will just break and give you a hard time, so always finish the design first, and then pocket.
-
-2. __Do you need to pocket it?__ In some situations, like over the bumper intakes, it may be better to switch to a lighter, flexible material such as polycarb instead of pocketed metal. In other situations, such as structural gussets and plates, it may be better to leave it unpocketed to keep all of the structure you can. View [this table](pocketingtable.md) to see which cases you should or shouldn't pocket in.
