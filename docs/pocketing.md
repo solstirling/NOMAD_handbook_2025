@@ -52,6 +52,13 @@ In 2025, **our team pocketed almost every plate on the robot**, except for polyc
 
 To be consistent as a team, we will always use the [lighten FS](https://cad.onshape.com/documents/573f7d70e4b0fddafb52148c/v/159edf03bd5c40a22bbff33c/e/5eccf6d369b0312a728d77d3) because it offers more control with holes and thicknesses.
 
+Here is a demo on how to use lighten:
+
+<video width="600" controls>
+  <source src="Lighten_Demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 > "biggest thing that makes pocketing look good is not the pocketing its the plate outer contour and how many holes you add..." 
 >
 > *Jonah*
