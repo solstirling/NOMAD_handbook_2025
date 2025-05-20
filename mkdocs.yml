@@ -1,5 +1,5 @@
 site_name: NOMAD Technical Handbook
-site_url: https://nomadtech.com
+site_url: https://nomad.com
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -20,6 +20,7 @@ nav:
     - Manufacturing: mfg.md
     - Assembly: assembly.md
   - Software: sw.md
+  - Extras: pocketingtable.md
 theme:
   name: material
   font:
@@ -43,4 +44,5 @@ theme:
         name: Switch to light mode
       primary: blue grey
       accent: light blue
-  
+extra_css:
+  - stylesheets/extra.css
