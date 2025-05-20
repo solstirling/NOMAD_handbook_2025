@@ -41,10 +41,10 @@ In 2025, **our team pocketed almost every plate on the robot**, except for polyc
 
 ## Tips before starting
 
-- **Finish the design before pocketing.** In Onshape, updating features after pocketing can create messy rebuilds. Finalize geometry and check for interferences first. If you are in a rush to get a part machined, be sure to double check the most important aspects of the plate (belt C2Cs, game piece compression, hole sizes, etc.)
-- **Holes and edges first.** Always start with a consistent rib thickness around bolt holes and plate perimeter to maintain strength and aesthetics.
-- **Use depth control.** Partial-depth pockets are faster to machine and offer more strength and material under load paths.
-- **Test different methods.** If unsure, try different rib patterns and evaluate them visually and with mass properties.
+- **Finish the design before pocketing.** - In Onshape, updating features after pocketing can create messy rebuilds. Finalize geometry and check for interferences first. If you are in a rush to get a part machined, be sure to double check the most important aspects of the plate (belt C2Cs, game piece compression, hole sizes, etc.)
+- **Holes and edges first.** - Always start with a consistent rib thickness around bolt holes and plate perimeter to maintain strength and aesthetics.
+- **Use depth control.** - Partial-depth pockets are faster to machine and offer more strength and material under load paths.
+- **Test different methods.** - If unsure, try different rib patterns and evaluate them visually and with mass properties.
 
 ---
 
